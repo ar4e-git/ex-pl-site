@@ -1,0 +1,74 @@
+html,body {
+	margin: 0;
+	padding: 0;
+	font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+	font-size: .8vw;
+}
+
+body {
+  background-color: white;
+  color: black;
+}
+
+.dark-mode {
+  background-color: #111a22;
+  color: white;
+}
+
+.dark-mode-icon {
+	 position: absolute;
+	 top: 20px; 
+	 right: 20px;
+ }
+ 
+.dark-mode-icon:hover {
+	 cursor: pointer;
+ }
+
+.container {
+	position: relative;
+	height: 100dvh; 
+	display: flex; 
+	flex-direction: column; 
+	justify-content: center; 
+	align-items: center;
+}
+
+.wrapper {
+	width: 60%;
+}
+
+.row-1 {
+ 
+	display: flex; 
+	flex-direction: row; 
+	justify-content: flex-end; 
+	column-gap: 10px;
+}
+
+.column-1 {
+	display: flex; 
+	cursor: pointer; 
+	user-select: none;
+}
+
+.text {
+	margin: 2px;
+	padding: 2px;
+}
+
+.input {
+	position: absolute;
+	bottom: 10px; 
+	right: 10px; 
+	visibility: hidden;
+}
+.active {
+	color: red;
+}
+
+.svg-dark-mode-active {
+	stroke: #ffffff;
+}
